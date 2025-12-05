@@ -11,8 +11,6 @@ import java.time.LocalDate;
 public class Equipamento {
 
     @Id //Marca o campo como chave primária da tabela.
-
-    @GeneratedValue(strategy = GenerationType.IDENTITY)/* para o banco incrementar o ID de forma automatica*/
     private String numeroDeSerie;
 
     @Column(nullable = false, length = 150)
